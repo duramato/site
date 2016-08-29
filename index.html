@@ -276,7 +276,7 @@
             </a>
         </div>
         <script>
-        	wait(500);
+        setTimeout(function(){
 		if (window.confirm('Este sítio web está em processo de ser descontinuado, Obrigado! \nIrá ser redireccionado para o sítio web do agrupamento.'))
 		{
     			window.location = 'http://agr46.blogspot.pt/';
@@ -285,6 +285,7 @@
 		{
     			die();
 		}
+    	}, 500);
 	</script>
     </body>
 </html>
